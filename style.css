@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.main__wrapper {
+  text-align: center;
+  width: 90%;
+}
+
+/* Search bar styles */
+.searchBar {
+  background-color: #eeeeee;
+}
+
+.searchBar input[type="text"] {
+  width: 25%;
+  height: 25px;
+}
+
+.searchBar button {
+  padding: 0 5px;
+}
+
+/* Links and subscription styles */
+.cards {
+  height: 90px;
+  margin-top: 2px;
+  display: flex;
+}
+
+.specialSearches {
+  padding-top: 15px;
+  width: 80%;
+  background: #7ee5da;
+}
+
+.links {
+  width: 40%;
+  padding-top: 10px;
+  font-size: 12px;
+  margin: 0 2px;
+  align-items: center;
+  background: #70ccc2;
+}
+
+.subscribe {
+  padding-top: 2px;
+  width: 100%;
+  background: #62b3aa;
+}
+
+.subscribe p {
+  font-size: 12px;
+}
+
+.subscribe input {
+  height: 25px;
+}
+
+.subscribe button {
+  padding: 0 5px;
+  margin-right: 5px;
+}
+
+.subscribe a {
+  font-size: 14px;
+}
+
+/* Footer */
+.footer {
+  margin-top: 20px;
+}
+
+.copyright {
+  font-size: 12px;
+}
